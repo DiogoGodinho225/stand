@@ -35,5 +35,5 @@ prevButton.onclick = () => {
     dotsOld.classList.remove('activeColor')
 
     dots[active].classList.add('activeColor')
-    indicator.querySelector('.number').innerHTML = "0" + (active - 1)
+    indicator.querySelector('.number').innerHTML = "0" + (active + 1)
   }
